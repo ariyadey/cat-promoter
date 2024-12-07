@@ -43,6 +43,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+            "baseHref": "/cat-promoter/",
             "outputPath": "docs",
             "index": "src/index.html",
             "browser": "src/main.ts",
