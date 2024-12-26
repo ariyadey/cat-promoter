@@ -54,7 +54,7 @@ export class AppComponent {
 
   private getSlapCount() {
     const max = 290;
-    const min = 190;
+    const min = 90;
     return Math.round((Math.random() * (max - min) + min));
   }
 
